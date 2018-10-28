@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3A85E"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".BookDetails">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/isi_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Isi Judul"
+        android:textColor="#212020"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/ringkasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ringkasan"
+        android:textColor="#212020"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/isi_ringkasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Isi Ringkasan"
+        android:textColor="#212020"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/posisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posisi"
+        android:textColor="#212020"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/isi_posisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi Posisi"
+        android:textColor="#212020"
+        android:textSize="18sp"
+        android:typeface="monospace" />
+</LinearLayout>
